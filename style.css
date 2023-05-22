@@ -12,14 +12,16 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: aquamarine;
-    padding: 1rem;  
+    padding: 1rem;
 }
 
 main {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
+    width: 100%;
 }
+
 nav ul {
     display: flex;
 }
@@ -27,4 +29,14 @@ nav ul {
 li {
     list-style-type: none;
     margin: 0.5rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 50rem;
+}
+
+.upperLeftContainer {
+    width: 100%;
 }
