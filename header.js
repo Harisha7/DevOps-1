@@ -3,9 +3,9 @@ const headerContent = `
 <nav>
   <ul>
     <li><a href="/">Hem</a></li>
-    <li><a href="/">Funktion 1</a></li>
-    <li><a href="/">Funktion 2</a></li>
-    <li><a href="/">Funktion 3</a></li>
+    <li><a href="/">Information</a></li>
+    <li><a href="/">Nyheter</a></li>
+    <li><a href="/">Kontakt</a></li>
   </ul>
 </nav>
 `;
