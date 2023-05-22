@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 1rem;  
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+nav ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin: 0.5rem;
+}
